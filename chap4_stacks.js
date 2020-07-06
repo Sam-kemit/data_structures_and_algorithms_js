@@ -80,7 +80,7 @@ var newNum = mulBase(num, base);
 console.log(num + " converted to base " + " is " + newNum);
 
     /* Palindromes */
-function isPlaindrome(word) {
+function isPalindrome(word) {
     var s = new Stack();
     for (var i=0; i<word.length; ++i) {
         s.push(word[i]);
@@ -98,7 +98,7 @@ function isPlaindrome(word) {
 }
 
 var word = "hello";
-if (isPlaindrome(word)) {
+if (isPalindrome(word)) {
     console.log(word + " is a palindrome.");
 }
 else {
